@@ -1,16 +1,7 @@
-# Equihash Solver for Zcash, C Implementation
+# Algorithmization
 
-## Install
-```
-git clone https://github.com/aabc/equihash-zcash-c.git
-cd equihash-zcash-c
-git submodule init
-git submodule update
-make
-./basicSolver -n 96 -k 5 -I 'block header' -N 0
-./basicSolver-opt -n 200 -k 9 -I 'block header' -N 1
-```
-You can use Zcash Solver CLI API:
-```
-./basicSolver-opt -n 200 -k 9 -i input.bin
-```
+Описание файлов:
+
+ - Practice (tasks).pdf - файл содержит список задач, которые нужно решить для завершения этапа.
+ - Questions.pdf - файл содержит вопросы, на которые нужно уметь отвечать по завершению этапа.
+ - Recommendations.pdf - файл содержит рекомендуемые материалы (видео и книги), к которым следует обратиться при возникновении трудностей при решении задач или ответах на вопросы.
